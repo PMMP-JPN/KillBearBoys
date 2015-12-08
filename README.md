@@ -1,4 +1,4 @@
-# KillBearBoys
+
 KillBearBoys SQLlte3対応版<br>
 <br>
 http://hmy2001.dip.jp/Blog/?m=201510<br>
