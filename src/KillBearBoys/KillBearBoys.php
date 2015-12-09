@@ -33,6 +33,7 @@ Logs
         -1.4Beta Support(ljy Thank you!)
 	15.09.16 3.0.0
 	-Database changed to sqlite3.(haniokasai)
+ -thanks hmy2001! http://hmy2001.dip.jp/Blog/?m=201510
 */
 
 class KillBearBoys extends PluginBase implements Listener, CommandExecutor{
