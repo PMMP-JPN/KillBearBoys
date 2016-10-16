@@ -102,7 +102,7 @@ class KillBearBoys extends PluginBase implements Listener, CommandExecutor{
 			$player = $event->getPlayer();
 			$who = $player->getName();
 			$ip =  $player->getAddress();
-			$cid = $player->loginData["clientId"]; 
+			$cid = $player->getClientId(); 
 			$action = $eventname;
 			$time = date("Y/m/d-H:i:s", time());
 			$blockname = $event->getBlock()->getName(); 
