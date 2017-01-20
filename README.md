@@ -1,4 +1,4 @@
-#Download <img src= https://poggit.pmmp.io/ci.badge/PMMP-JPN/KillBearBoys/KillBearBoys/>
+#<a href="https://poggit.pmmp.io/ci/PMMP-JPN/KillBearBoys/KillBearBoys">Download <img src= https://poggit.pmmp.io/ci.badge/PMMP-JPN/KillBearBoys/KillBearBoys/></a>
 KillBearBoys SQLlte3対応版<br>
 <br>
 http://hmy2001.dip.jp/Blog/?m=201510<br>
