@@ -1,7 +1,7 @@
 name: KillBearBoyshk
 main: KillBearBoys\KillBearBoys
 version: 3.0.0
-api: 1.6.0
+api: 3.0.0-ALPHA8
 author: Hmy2001,haniokasai
 website: 
 commands:

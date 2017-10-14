@@ -91,7 +91,7 @@ class KillBearBoys extends PluginBase implements Listener, CommandExecutor{
 				$this->chk($event);
                 $event->setCancelled(true);
 }
-       }
+	}
 
 		public function regi($event,$eventname){
 			$level = $event->getPlayer()->getLevel()->getName();
@@ -134,7 +134,7 @@ class KillBearBoys extends PluginBase implements Listener, CommandExecutor{
 			$player->sendMessage("////////////////////////////////");
 	}
 	}
-        public function onCommand(CommandSender $sender, Command $command, $label, array $args){
+        public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool{
                  if($sender instanceof Player){
 			if(!isset($this->wands[$sender->getName()])){
 				$this->wands[$sender->getName()] = true;
