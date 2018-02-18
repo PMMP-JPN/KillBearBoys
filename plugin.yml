@@ -9,11 +9,23 @@ commands:
   description: Enable/Disable
   usage: "/co"
   permission: KillBearBoys.command
+ kb:
+  description: Options for KillBearBoys
+  usage: "/kb <autodelete/multiplelog> <on/off>"
+  permission: KillBearBoys.kb
 permissions:
     co:
         default: op
-        description: "All the permissions to use the KillBearBoys"
+        description: "checking block info permissions on KillBearBoys"
         children:
             KillBearBoys.command:
                 default: op
-                description: "Allow the usage of the KillBearBoys command"
+                description: "Allow to check block info"
+    kb:
+        default: op
+        description: "kb command permissions on KillBearBoys"
+        children:
+            KillBearBoys.kb:
+                default: op
+                description: "Allow to change options for KillBearBoys"
+
