@@ -98,6 +98,7 @@ class KillBearBoys extends PluginBase implements Listener, CommandExecutor{
        }
 
 		public function regi($event,$eventname){
+            /** @var BlockBreakEvent $event */
 			$level = $event->getPlayer()->getLevel()->getName();
 			$x = $event->getBlock()->x;
 			$y = $event->getBlock()->y;
@@ -116,8 +117,10 @@ class KillBearBoys extends PluginBase implements Listener, CommandExecutor{
 	
 		}
 
-		public function chk($event){
-			$x = $event->getBlock()->x;
+    public function chk($event){
+
+            /** @var BlockBreakEvent $event */
+            $x = $event->getBlock()->x;
 			$y = $event->getBlock()->y;
 			$z = $event->getBlock()->z;
 			$xyz =""."x"."$x"."y"."$y"."z"."$z"."";
